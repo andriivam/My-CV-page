@@ -1,89 +1,102 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrii CV</title>
-</head>
-<body>
-    <table cellspacing="15">
-        <tr>
-            <td> 
-                <img alt="drawing" src="Andrii.jpg" width="200" />
-            </td>
-            <td>
-                <h1>This page was create by Andrii Vlasiuk</h1>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Andrii CV</title>
+    <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container">
+    <div class="info">
 
-                <p><em> Im student of program <strong>HYF</strong></em></p>
-            
-                <p>I like to travel, fishing and coding</p>
-            </td>
-        </tr>
-    </table>
+                    <img alt="drawing" src="Andrii.jpg"   class="avatar"/>
+<div class="info-text">
+                    <h1>This page was create by Andrii Vlasiuk</h1>
 
-<hr/>
-<h2>My social networks</h2>
-<ul type="square">
-    <li><a href="https://www.facebook.com/AndriiVlasiukM" target="_blank">Facebook</a></li>
-    <li><a href="https://www.linkedin.com/in/андрій-власюк-b0030789/" target="_blank">LinkedIn</a></li>
-    <li><a href="https://github.com/andriivam" target="_blank">GitHub</a></li>
-</ul>
-<hr>
-<h2>How i spend my free time</h2>
-<ol>
-    <li>Fishing</li>
-    <li>Traveling</li>
-    <li>Coding</li>
-</ol>
-<hr>
-<h2>Work experience</h2>
-<table>
+                    <p>Im student of program <strong>HYF</strong></em></p>
+                
+                    <p>I like to travel, fishing and coding</p>
+
+                    <h4>My social networks</h4>
+
+        <a href="https://www.facebook.com/AndriiVlasiukM" target="_blank">Facebook</a>
+        <a href="https://www.linkedin.com/in/андрій-власюк-b0030789/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/andriivam" target="_blank">GitHub</a>
+    </div>
+
+    </div>
+
+    </div>
+
+
+
+    <div class="card bg-yellow">
+    <h2>How i spend my free time</h2>
+    <ol class="list">
+        <li>Fishing</li>
+        <li>Traveling</li>
+        <li>Coding</li>
+    </ol>
+    </div>
+
+    <div class="card bg-green">
+    <h2>Work experience</h2>
+    <table class="table">
+
     <tr>
-        <th>Company name</th>
-        <th>Position</th>
-        <th>Year</th>
+        <td>CowFish</td>
+        <td>Waiter</td>
+        <td>2019-2022</td>
     </tr>
-<tr>
-    <td>CowFish</td>
-    <td>Waiter</td>
-    <td>2019-2022</td>
-</tr>
-<tr>
-    <td>VinPearl</td>
-    <td>Assistant Manager</td>
-    <td>2018-2019</td>
-</tr>
-<tr>
-    <td>Red Cafe</td>
-    <td>Assistant Manager</td>
-    <td>2017-2018</td>
-</tr>
-</table>
-<hr>
+    <tr>
+        <td>VinPearl</td>
+        <td>Assistant Manager</td>
+        <td>2018-2019</td>
+    </tr>
+    <tr>
+        <td>Red Cafe</td>
+        <td>Assistant Manager</td>
+        <td>2017-2018</td>
+    </tr>
+    <tr>
+        <td>Hilton</td>
+        <td>Waiter</td>
+        <td>2014-2016</td>
+    </tr>
+    </table>
+    </div>
 
-<h2>How to contact me</h2>
+    <div class="contact">
+    <h2 class="bg-red">How to contact me</h2>
 
-<form action="/">
+    <form action="/">
+        <div class="row">
+<div class="form-group">
+    <label for="name">Your name</label>
+    <input type="text" id="name" placeholder="Type your name">
+</div>
+<div class="form-group">
+    <label for="email">Your email</label>
+    <input type="email" id="email" placeholder="Type your email">
+</div>
+</div>
+<div class="form-group">
+    <label for="text">Your message</label>
+    <textarea id="text" cols="20" rows="2"></textarea>
+</div>
+    
 
-<label for="name">Your name</label>
-<input type="text" id="name" placeholder="Type your name">
+    <input class="btn" type="submit" value="Send">
+    
+    </form>
+</div>
 
-<br>
-<label for="email">Your email</label>
-<input type="email" id="email" placeholder="Type your email">
-
-<br>
-
-<label for="text">Your message</label>
-<br>
-<textarea id="text" cols="20" rows="2"></textarea>
-
-<br>
-
-<input type="submit" value="Send">
-
-</form>
-
-</body>
-</html>
+<div class="position">
+    <div class="box"></div>
+</div>
+   
+    <div style="margin-bottom: 500px;"></div>
+    </body>
+    </html>     
